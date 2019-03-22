@@ -1,0 +1,7 @@
+baseURL = "https://clintstatic.azureedge.net"
+languageCode = "en-us"
+title = "Basics Theme Demo"
+theme = "basics"
+
+[params]
+    author = "Clint Davis"
