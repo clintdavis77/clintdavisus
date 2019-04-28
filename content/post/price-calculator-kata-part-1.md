@@ -1,7 +1,7 @@
 ---
 title: "Price Calculator Kata (Part 1)"
 date: 2019-04-26T21:01:12-04:00
-draft: true
+draft: false
 ---
 
 ## The Beginning
