@@ -40,4 +40,4 @@ This is my first time actually trying to implement a fluent design so I found [t
 
 It did take me a minute to wrap my mind on how the interfaces were actually working but once I did it made total sense and I actually implemented it quickly. On the object oriented side, the PriceResult object is doing the calculation. I like the seperation between the api and the object. The api is building the object with everything it needs and the object does the actual calculation. This made testing really easy because the tests are actually only testing the PriceResult object methods. The test of the api is done when I actually try to use it, like in the console app. I guess I could technically have seperate tests for the api but I don't think it would offer me much value. If I were to change the behavior of the api I would end up violating one of the interfaces and the compiler would throw an error. 
 
-
+You can see the code at this point on [my Github.](https://github.com/clintdavis77/price-calculator-kata/tree/a59ba685cf2c3fd8e6bf4e89e0b8c9398d11fe12)
