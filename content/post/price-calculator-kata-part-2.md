@@ -2,6 +2,7 @@
 title: "Price Calculator Kata (Part 2)"
 date: 2019-04-28T17:40:24-04:00
 draft: false
+tags:  ["programming", "kata"]
 ---
 
 I scroll down and read the next requirement to implement...Discount. Hmm, I think I can do this easily. Let's see.

@@ -2,6 +2,7 @@
 title: "Easy Caramel Iced Coffee"
 date: 2019-03-21T14:28:35-04:00
 draft: false
+tags:  ["coffee", "caramel"]
 ---
 
 ## Ingredients
