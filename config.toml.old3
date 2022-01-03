@@ -1,0 +1,46 @@
+baseURL = "https://clintdavis.us/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Clint Davis"
+theme = "terminal"
+googleAnalytics = "UA-2326736-13"
+disqusShortname = "clintdavis"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[imaging]
+  quality = 99
+
+[params]
+  description = "My personal musings on technology, God, parenting, and other assorted topics."
+  homeMetaContent = "My personal musings on technology, God, parenting, and other assorted topics."
+  footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "Jan 2, 2006"
+  codePenUser = "someUser"
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    url = "/post/"
+    weight = 2
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
