@@ -13,7 +13,8 @@ weight: 50
     <input type="hidden" name="kx" value="#03a062"/>
     <input type="hidden" name="kj" value="#aeafb2"/>
     <input type="hidden" name="kt" value="p"/>
-    <input type="text" name="q" placeholder="Search…" aria-label="Search clintdavis.us on DuckDuckGo"/>
+    <input type="text" name="q" placeholder="Search me…" aria-label="Search clintdavis.us on DuckDuckGo"/>
+    <p></p>
     <button type="submit">Search</button>
 </form>
 
