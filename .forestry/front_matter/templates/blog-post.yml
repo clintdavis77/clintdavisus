@@ -11,3 +11,32 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: authorTwitter
+  type: text
+  config:
+    required: false
+  label: Author Twitter
+  description: do not include @
+- name: keywords
+  type: tag_list
+  default: []
+  label: Keywords
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: readingTime
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 'true'
+    - 'false'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Reading Time
