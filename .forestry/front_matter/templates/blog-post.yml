@@ -40,3 +40,5 @@ fields:
       file: 
       path: 
   label: Reading Time
+pages:
+- content/post/test-post.md
